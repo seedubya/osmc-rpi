@@ -67,7 +67,7 @@ The _modern_ approach is to use Docker Compose to build and manage your containe
         - /home/pi/docker_config/osmc-rpi/data:/data
         - /home/pi/docker_config/osmc-rpi/config:/config/kodi
         restart: unless-stopped
-  ``
+  ```
 1. Start the new container:
   ```shell
   docker compose up -d
