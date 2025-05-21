@@ -70,7 +70,7 @@ The _modern_ approach is to use Docker Compose to build and manage your containe
     ```
 1. Start the new container:
     ```shell
-    docker compose up -d
+    docker compose up --build -d
     ```
 1. Check the logs:
     ```shell
