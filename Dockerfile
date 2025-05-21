@@ -1,8 +1,8 @@
-ARG OSMC_VERSION=20170803
-FROM codafog/osmc-rpi:base_${OSMC_VERSION}
+ARG OSMC_VERSION=20250302
+FROM seedubya/osmc-rpi:base_${OSMC_VERSION}
 
 # Enable systemd
-ENV INITSYSTEM on
+ENV INITSYSTEM=on
 
 # Configure Kodi group
 RUN usermod -a -G audio root && \
